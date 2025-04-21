@@ -32,6 +32,7 @@ export class SinglefruitComponent {
     // this.inputData = "Moin";  //wenn man jetzt auf den pfeil klickt neben dem inputfeld wird "Moin" ausgegeben
 
     this.fruitname.emit(this.inputData);
+    this.inputData = "";
 
   }
 
